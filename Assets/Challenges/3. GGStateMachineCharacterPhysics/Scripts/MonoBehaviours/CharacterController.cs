@@ -65,6 +65,8 @@ namespace Challenges._3._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
         private GGStateMachineFactory _ggStateMachineFactory;
         private IGGStateMachine _stateMachine;
 
+        CharacterController characterController;
+
         [Inject]
         public void Inject(GGStateMachineFactory ggStateMachineFactory)
         {
@@ -99,9 +101,7 @@ namespace Challenges._3._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
 
         #region EDIT
         // You should only need to edit in this region, you can add any variables you wish.
-        
 
-       
         //Add your states under this function
         private void SetupStateMachineStates()
         {
@@ -130,7 +130,9 @@ namespace Challenges._3._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
         // (A) -> (-1,0)
         public void SetCurrentMovement(Vector2 xzPlaneMovementVector)
         {
-            
+            Vector3 moveVector = new Vector3(xzPlaneMovementVector.x, 0, xzPlaneMovementVector.y);
+            this.transform.TransformDirection(moveVector * 5 * Time.deltaTime);
+
         }
         
         #endregion

@@ -795,6 +795,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 566948427088711459, guid: 34c64dd09c59e41ebb882d73ded91379, type: 3}
+      propertyPath: DoubleConst
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 566948427088711486, guid: 34c64dd09c59e41ebb882d73ded91379, type: 3}
       propertyPath: m_Name
       value: ClickableCylinder
@@ -863,6 +867,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 4848353121113059570, guid: 1bc352e1883914b62b0821d3c4efe4e0, type: 3}
+      propertyPath: DoubleConst
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 4848353121113059573, guid: 1bc352e1883914b62b0821d3c4efe4e0, type: 3}
       propertyPath: m_Name
       value: ClickableCapsule
@@ -924,6 +932,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5124880184875315959, guid: ece3d331e58a04f11a5efc13c3d7a3fa, type: 3}
+      propertyPath: DoubleConst
+      value: 0.21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ece3d331e58a04f11a5efc13c3d7a3fa, type: 3}
 --- !u!1001 &5431149525593042624
@@ -933,6 +945,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 583109286439581305, guid: 19b4672e0560e4ec28d40aa030d4f0cc, type: 3}
+      propertyPath: DoubleConst
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 583109286439581306, guid: 19b4672e0560e4ec28d40aa030d4f0cc, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -990,6 +1006,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5878315580650274880, guid: 86e856527368a4356987862ebc0674cc, type: 3}
+      propertyPath: DoubleConst
+      value: 0.21
+      objectReference: {fileID: 0}
     - target: {fileID: 5878315580650274883, guid: 86e856527368a4356987862ebc0674cc, type: 3}
       propertyPath: m_RootOrder
       value: 4
